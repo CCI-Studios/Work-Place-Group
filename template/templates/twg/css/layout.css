@@ -1,6 +1,26 @@
 
 
 #top {
-	
+	background-color: green;
+	height: 122px; /* fixme */
+	margin: 0 auto;
+}
+/*
+#top > div {
+	background-color: yellow;
+	width: 800px;
 }
 
+
+#mainmenu {
+	background-color: red;
+	height: 36px;  fixme 
+	margin: 0 auto;
+}
+
+#mainmenu > div {
+	background-color: black;
+	width: 800px;
+}
+
+*/
