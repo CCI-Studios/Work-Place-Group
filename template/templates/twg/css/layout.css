@@ -1,29 +1,61 @@
 #top {
-	background-color: green;
-	height: 122px; /* fixme */
-	padding: 50px 0;
 	margin: 0 auto;
+	height: 122px; /* fixme */
 }
 
-#top > div {
-	background-color: yellow;
+#logo {
+	margin: 0 auto;
+	padding: 20px;
+	width: 800px;
+}
+
+#topmenu {
+	margin: 0 auto;
+	padding: 20px;
 	width: 800px;
 }
 
 #mainmenu {
-	background-color: red;
-	height: 36px;  /* fixme */
+	background: url(../images/topmenubg.png) repeat-x;
 	margin: 0 auto;
 }
 
 #mainmenu > div {
-	background-color: black;
+	height: 36px;  /* fixme */
+	margin: 0 auto;
 	width: 800px;
 }
 
-#sidebar {
-	background-color: YellowGreen;
-	float: right;
+#content {
+	background-color: #422b25;
+	margin: 0 auto;
 	height: 524px; /* fixme */
+}
+
+#sidebar {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#sidebar > div {
+	background-color: #9ACD32;
+	height: 524px; /* fixme */
+	float: right;
+	margin: 0 auto;
 	width: 228px;
 }
+
+#footer {
+	background: url(../images/bottommenubg.png) repeat-x;
+	height: 36px; /*fixme */
+	color: white;
+}
+
+#footer > div {
+	margin: 0 auto;
+	width: 800px;
+	font-size: 10px;
+}
+
+
+

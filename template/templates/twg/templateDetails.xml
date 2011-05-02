@@ -23,6 +23,7 @@
  
     <positions>
 		<position>top</position>
+		<position>mainmenu</position>
 		<position>sidebar</position>
 		<position>bottom</position>
     </positions>

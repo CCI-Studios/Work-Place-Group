@@ -1,0 +1,11 @@
+.moduletable {	
+}
+
+/* main menu begins */
+.moduletable_menu { }
+.moduletable_menu ul {  display: inline; list-style-type: none; text-decoration: none; }
+.moduletable_menu li { padding: 100px; }
+.moduletable_menu li > a { color: white; }
+.moduletable_menu li > span {  }
+
+/* main menu ends */
