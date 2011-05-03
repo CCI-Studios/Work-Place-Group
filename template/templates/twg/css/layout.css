@@ -1,61 +1,60 @@
-#top {
-	margin: 0 auto;
-	height: 122px; /* fixme */
-}
-
-#logo {
-	margin: 0 auto;
-	padding: 20px;
-	width: 800px;
-}
-
-#topmenu {
-	margin: 0 auto;
-	padding: 20px;
-	width: 800px;
-}
+#top { margin: 0 auto; width: 780px; }
 
 #mainmenu {
 	background: url(../images/topmenubg.png) repeat-x;
 	margin: 0 auto;
+	padding-bottom: 1px;
 }
 
 #mainmenu > div {
 	height: 36px;  /* fixme */
 	margin: 0 auto;
-	width: 800px;
+	width: 780px;
 }
 
 #content {
 	background-color: #422b25;
+	color: black;
 	margin: 0 auto;
-	height: 524px; /* fixme */
+}
+
+#content > div {
+	background-color: white;
+	border-left: #422b25 solid 1.5px;
+	border-right: #422b25 solid 1.5px;
+	margin: 0 auto;
+	width: 780px;
+}
+
+#component {
+	padding: 20px 16px;
+	width: 555px;
 }
 
 #sidebar {
-	margin: 0 auto;
-	width: 800px;
+	float: right;
+	width: 225px;
 }
 
-#sidebar > div {
-	background-color: #9ACD32;
-	height: 524px; /* fixme */
-	float: right;
-	margin: 0 auto;
-	width: 228px;
-}
+#sidebar > div { width: 225px; }
+
+#bottom { float: left; }
+
+#bottomdummy { height: 243px; }
 
 #footer {
 	background: url(../images/bottommenubg.png) repeat-x;
-	height: 36px; /*fixme */
-	color: white;
+	margin: 0 auto;
 }
 
 #footer > div {
-	margin: 0 auto;
-	width: 800px;
+	color: white;
 	font-size: 10px;
+	margin: 1px auto;
+	padding: 5px 0;
+	width: 555px;
 }
+
 
 
 

@@ -1,11 +1,46 @@
-.moduletable {	
+.moduletable { }
+
+/* mainmenu begins */
+#mainmenu .moduletable_menu { }
+#mainmenu .moduletable_menu ul { display: inline; list-style-type: none;  }
+#mainmenu .moduletable_menu li { float: left; padding: 10px 25px; }
+#mainmenu .moduletable_menu a, 
+#mainmenu .moduletable_menu span { color: white; text-decoration: none; }
+#mainmenu .moduletable_menu span:hover { color: #a3ba4f; }
+#mainmenu .moduletable_menu span:visited { color: white; }
+/* mainmenu ends */
+
+#top .moduletable > img { padding: 20px 16px; }
+
+/* topmenu begins */
+#top .moduletable { }
+#top .moduletable ul { float: right; list-style-type: none; }
+#top .moduletable li { padding: 10px 27px 0 0;}
+#top .moduletable a,
+#top .moduletable span { color: #a3ba4f; float: right; text-decoration: none;}
+#top .moduletable span:hover { color: black; }
+#top .moduletable span:hover { color: #422b25; }
+/* topmenu ends */
+
+#bottom .moduletable { float: left; }
+
+#bottom .moduletable > span { 
+	position: relative;
+	float: left;
+	height: 243px; /* fixme */
+	width: 185px;
 }
 
-/* main menu begins */
-.moduletable_menu { }
-.moduletable_menu ul {  display: inline; list-style-type: none; text-decoration: none; }
-.moduletable_menu li { padding: 100px; }
-.moduletable_menu li > a { color: white; }
-.moduletable_menu li > span {  }
+#bottom .moduletable > span > img { padding: 6px 10px; }
 
-/* main menu ends */
+/* sidebar items begin */
+#sidebar .moduletable > span { 
+	float: left;
+	height: 243px; /* fixme */
+	width: 225px;
+}
+
+#sidebar .moduletable > span > img { padding: 6px 10px 5px 10px;}
+
+#
+/* sidebar items end */
