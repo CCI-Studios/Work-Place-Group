@@ -2,45 +2,37 @@
 
 /* mainmenu begins */
 #mainmenu .moduletable_menu { }
-#mainmenu .moduletable_menu ul { display: inline; list-style-type: none;  }
+#mainmenu .moduletable_menu ul { display: inline; list-style-type: none; }
 #mainmenu .moduletable_menu li { float: left; padding: 10px 25px; }
+#mainmenu .moduletable_menu li:first-child { padding-left: 20px ;}
 #mainmenu .moduletable_menu a, 
 #mainmenu .moduletable_menu span { color: white; text-decoration: none; }
 #mainmenu .moduletable_menu span:hover { color: #a3ba4f; }
 #mainmenu .moduletable_menu span:visited { color: white; }
 /* mainmenu ends */
 
-#top .moduletable > img { padding: 20px 16px; }
-
 /* topmenu begins */
-#top .moduletable { }
-#top .moduletable ul { float: right; list-style-type: none; }
-#top .moduletable li { padding: 10px 27px 0 0;}
-#top .moduletable a,
-#top .moduletable span { color: #a3ba4f; float: right; text-decoration: none;}
-#top .moduletable span:hover { color: black; }
-#top .moduletable span:hover { color: #422b25; }
+#top .moduletable.logo { padding: 20px 16px; float: left; }
+
+#top .moduletable_menu { float: right; }
+#top .moduletable_menu ul { list-style-type: none; text-align: right; }
+#top .moduletable_menu li { padding: 5px 35px 0 0; }
+#top .moduletable_menu a,
+#top .moduletable_menu span { color: #a3ba4f; text-decoration: none; }
+#top .moduletable_menu span:hover { color: black; }
+#top .moduletable_menu span:hover { color: #422b25; }
 /* topmenu ends */
 
-#bottom .moduletable { float: left; }
-
-#bottom .moduletable > span { 
-	position: relative;
-	float: left;
-	height: 243px; /* fixme */
-	width: 185px;
-}
-
-#bottom .moduletable > span > img { padding: 6px 10px; }
+/* bottom begins */
+#bottom .moduletable { float: left; height: 243px; width: 165px; padding: 6px 10px 0; background-color: #e8edd3;}
+#bottom .moduletable + .moduletable { background-color: #d1dca7; }
+#bottom .moduletable + .moduletable + .moduletable { background-color: #bacb7a; }
+/* bottom ends */
 
 /* sidebar items begin */
-#sidebar .moduletable > span { 
-	float: left;
-	height: 243px; /* fixme */
-	width: 225px;
-}
-
-#sidebar .moduletable > span > img { padding: 6px 10px 5px 10px;}
-
-#
+#sidebar .moduletable { }
+#sidebar .moduletable_search { padding: 14px 10px 0 0; text-align: right; }
+#sidebar .moduletable_events { background: url(../images/upcomingeventsbgfull.png) no-repeat; min-height: 187px; padding: 15px 25px; margin: 25px 0 0; }
+#sidebar .moduletable_events > p { color: white; font-size: 12px; text-align: left; padding: 0px 5px; }
+#sidebar .moduletable_image { background: #a3b94e; text-align: center; padding: 0 5px 0 0; }
 /* sidebar items end */

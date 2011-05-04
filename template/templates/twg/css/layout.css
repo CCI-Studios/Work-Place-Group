@@ -1,4 +1,7 @@
-#top { margin: 0 auto; width: 780px; }
+#top { 
+	margin: 0 auto; 
+	width: 780px;
+}
 
 #mainmenu {
 	background: url(../images/topmenubg.png) repeat-x;
@@ -7,7 +10,7 @@
 }
 
 #mainmenu > div {
-	height: 36px;  /* fixme */
+	height: 36px;
 	margin: 0 auto;
 	width: 780px;
 }
@@ -19,42 +22,68 @@
 }
 
 #content > div {
-	background-color: white;
-	border-left: #422b25 solid 1.5px;
-	border-right: #422b25 solid 1.5px;
+	border-left: white solid 1px;
+	border-right: white solid 1px;
 	margin: 0 auto;
-	width: 780px;
+	padding: 1px 0;
+	width: 784px;
 }
 
-#component {
+#content > div > div {
+	background-color: white;
+	border-left: #422b25 solid 1px;
+	border-right: #422b25 solid 1px;
+	margin: -2px 0;
+	position: relative; 
+}
+
+#component { 
 	padding: 20px 16px;
+}
+
+#main { 
+	float: left; 
 	width: 555px;
 }
 
-#sidebar {
-	float: right;
-	width: 225px;
+#sidebar { 
+	float: left; 
+	margin: 1px 1px 1px 0; 
+	width: 226px; 
 }
 
-#sidebar > div { width: 225px; }
-
-#bottom { float: left; }
+#bottom { 
+	bottom: 1px; left: 0;
+	border-top: #a3ba4f 1px solid;
+	padding-top: 1px;
+	position: absolute;
+}
 
 #bottomdummy { height: 243px; }
 
-#footer {
-	background: url(../images/bottommenubg.png) repeat-x;
-	margin: 0 auto;
-}
+#footer { background: url(../images/bottommenubg.png) repeat-x; margin: 0 auto; }
 
 #footer > div {
 	color: white;
 	font-size: 10px;
 	margin: 1px auto;
 	padding: 5px 0;
-	width: 555px;
+	width: 784px;
 }
 
+#footer > div > div {
+	text-align: left;
+	padding-top: 5px;
+}
+
+#footer > div > div + div { 
+	text-align: center; 
+	padding-top: 0;
+}
+
+#footer > div > div + div + div { 
+	text-align: right;
+}
 
 
 
