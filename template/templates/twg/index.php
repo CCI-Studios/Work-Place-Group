@@ -28,15 +28,15 @@
 			<div id="bottomdummy"></div>
 		</div>
 		<div id="sidebar">
-			<jdoc:include type="modules" name="sidebar" style="xhtml" />
+			<jdoc:include type="modules" name="sidebar" style="rounded" />
 		</div>
 		<div class="clear"></div>
 	</div></div></div>
 		
 	<div id="footer"><div>
-		<div>Site by CCI Studios</div>
-			<div><img src="../templates/twg/images/employmentontariologo.png" width="78" height="24" alt="Employmentontariologo" /></div>
-				<div>Copyright 2008 <img src="../templates/twg/images/twglogomini2.png" width="117" height="25" alt="Twglogomini" /></div>
+		<div class="left">Site by CCI Studios</div>
+		<div class="right">&copy; Copyright <?php echo date('Y') ?><img src="../templates/twg/images/twglogomini2.png" width="117" height="25" alt="Twglogomini" /></div>
+		<div class="center"><img src="../templates/twg/images/employmentontariologo.png" width="78" height="24" alt="Employmentontariologo" /></div>
 	</div></div>
 
 </body>

@@ -17,6 +17,7 @@
 		<filename>index.html</filename>
 		<filename>templateDetails.xml</filename>
 		<folder>css</folder>
+		<folder>fonts</folder>
         <folder>html</folder>
         <folder>images</folder>
     </files>
